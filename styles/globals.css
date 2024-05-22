@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+main{
+    @apply  text-white bg-gradient-to-b from-[#1773DA] to-[#0A387C] min-h-screen
+}
+._section {
+    @apply w-full pt-[24px] px-[24px]
+}
+._wrapper {
+    @apply p-[24px] max-w-[1440px] mx-auto bg-white bg-opacity-[6%] rounded-[40px]
+}
+
+._h2_wrapper{
+    @apply flex flex-row justify-between font-bold 2xl:text-[96px] lg:text-[56px] leading-[120px]
+}
+/* ._h2 {
+    @apply 
+} */
+._number {
+    @apply opacity-50
+}
