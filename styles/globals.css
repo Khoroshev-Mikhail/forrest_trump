@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    min-width: 360px;
+}
 main{
     @apply  text-white bg-gradient-to-b from-[#1773DA] to-[#0A387C] min-h-screen
 }
@@ -8,7 +12,7 @@ main{
     @apply w-full pt-[24px] px-[24px]
 }
 ._wrapper {
-    @apply p-[24px] max-w-[1440px] mx-auto bg-white bg-opacity-[6%] rounded-[40px]
+    @apply p-[16px] lg:p-[24px] max-w-[1440px] mx-auto bg-white bg-opacity-[6%] rounded-[40px] border-[0.5px] border-[#5F9Ad7]
 }
 
 ._h2_wrapper{
@@ -19,4 +23,7 @@ main{
 } */
 ._number {
     @apply opacity-50
+}
+._text_14-16{
+    @apply text-[14px] md:text-[16px] leading-[20px] md:leading-[24px]
 }
