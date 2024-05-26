@@ -9,7 +9,7 @@ export default function Menu(){
     const [ height, ref ] = useGetElementHeight();
     return (
         <>       
-            <section ref={ ref } className="_section fixed top-0 left-0">
+            <section ref={ ref } className="_section fixed z-40 top-0 left-0">
                 <div className="_wrapper !rounded-[10px] !px-[20px] !py-[16px]">
                     <div className="w-full flex justify-between text-[20px] font-semibold leading-[32px]">
                         <div className="flex justify-start gap-x-[12px]">

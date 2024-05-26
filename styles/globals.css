@@ -12,11 +12,11 @@ main{
     @apply w-full pt-[24px] px-[24px]
 }
 ._wrapper {
-    @apply p-[16px] lg:p-[24px] max-w-[1440px] mx-auto bg-white bg-opacity-[6%] rounded-[40px] border-[0.5px] border-[#5F9Ad7]
+    @apply p-[16px] lg:p-[24px] max-w-[1440px] mx-auto bg-white bg-opacity-[6%] rounded-[8px] md:rounded-[40px] border-[0.5px] border-[#5F9Ad7]
 }
 
 ._h2_wrapper{
-    @apply flex flex-row justify-between font-bold 2xl:text-[96px] lg:text-[56px] leading-[120px]
+    @apply flex flex-row justify-between font-bold uppercase text-[32px] lg:text-[56px] 2xl:text-[96px] leading-[40px] lg:leading-[64px] 2xl:leading-[120px]
 }
 /* ._h2 {
     @apply 
@@ -25,5 +25,8 @@ main{
     @apply opacity-50
 }
 ._text_14-16{
-    @apply text-[14px] md:text-[16px] leading-[20px] md:leading-[24px]
+    @apply text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] font-medium
+}
+._text_14-20{
+    @apply text-[14px] md:text-[20px] leading-[20px] md:leading-[32px] font-bold
 }
