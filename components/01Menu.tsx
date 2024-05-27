@@ -10,7 +10,7 @@ export default function Menu(){
     return (
         <>       
             <section ref={ ref } className="_section fixed z-40 top-0 left-0">
-                <div className="_wrapper !rounded-[10px] !px-[20px] !py-[16px]">
+                <div className="_wrapper !rounded-[10px] !px-[20px] !py-[16px] backdrop-blur-md">
                     <div className="w-full flex justify-between text-[20px] font-semibold leading-[32px]">
                         <div className="flex justify-start gap-x-[12px]">
                             <div className="flex flex-col justify-center">

@@ -4,9 +4,9 @@ import forrest_trump from "../public/img/04Tokenomics/forrest_trump.png"
 export default function Tokenomics(){
     return (
         <section className="_section">
-            <div className="_wrapper flex flex-col md:flex-row gap-y-[16px]">
+            <div className="_wrapper flex flex-col md:flex-row gap-y-[16px] gap-x-[16px]">
                 <div className="w-full md:w-1/4 flex justify-center order-last md:order-first">
-                    <Image className="w-1/2 aspect-[253/370] mx-auto object-contain h-2/3 md:w-auto" src={forrest_trump} alt="FORRE$T TRUMP" />
+                    <Image className="w-1/2 aspect-[253/370] mx-auto object-contain h-2/3 md:w-auto lg:w-full lg:h-full" src={forrest_trump} alt="FORRE$T TRUMP" />
                 </div>
                 <div className="w-full md:w-3/4 flex flex-col gap-y-[16px] md:gap-y-[24px]">
                     <div className="_h2_wrapper">
