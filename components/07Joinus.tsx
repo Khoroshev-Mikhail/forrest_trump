@@ -1,14 +1,16 @@
 import Image from "next/image";
-import x from '../public/img/07Footer/x.svg'
-import tg from '../public/img/07Footer/tg.svg'
-import feather from '../public/img/07Footer/feather.png'
+import x from '../public/img/07Joinus/x.svg'
+import tg from '../public/img/07Joinus/tg.svg'
+import feather from '../public/img/07Joinus/feather.png'
 
 export default function Joinus(){
     return (
         <section className="_section ">
             <div className="_wrapper mt-[4%] relative flex flex-col gap-y-[24px] !rounded-b-none">
-                <Image className="w-1/3 left-1/2 -translate-x-1/2 absolute -top-[10%]" src={feather} alt="" />
-                <h2 className="pt-[10%] z-40 relative text-center font-bold uppercase font bold text-[32px] leading-[40px] md:text-[96px] md:leading-[120px]">
+                <div className="w-1/3 h-auto left-1/2 -translate-x-1/2 absolute -top-[10%]">
+                    <Image className="w-full" src={feather} alt="" />
+                </div>
+                <h2 className="mt-[10%] z-40 relative text-center font-bold uppercase font bold text-[32px] leading-[40px] md:text-[96px] md:leading-[120px] bg-[url('/img/07Joinus/shadow.png')] bg-center bg-no-repeat">
                     Join us
                 </h2>
                 <div className="_text_14-16 opacity-85 text-center md:w-1/2 mx-auto">

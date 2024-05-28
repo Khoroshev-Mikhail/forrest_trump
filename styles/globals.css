@@ -16,7 +16,7 @@ main{
 }
 
 ._h2_wrapper{
-    @apply flex flex-row justify-between font-bold uppercase text-[32px] lg:text-[56px] 2xl:text-[96px] leading-[40px] lg:leading-[64px] 2xl:leading-[120px]
+    @apply flex flex-row justify-between font-bold uppercase text-[32px] xs:text-[40px] md:text-[50px] lg:text-[56px] 2xl:text-[96px] leading-[40px] lg:leading-[64px] 2xl:leading-[120px]
 }
 /* ._h2 {
     @apply 
@@ -28,13 +28,13 @@ main{
     @apply text-[14px] md:text-[16px] leading-[20px] md:leading-[24px] font-medium
 }
 ._text_14-20{
-    @apply text-[14px] md:text-[20px] leading-[20px] md:leading-[32px] font-bold
+    @apply text-[14px] xs:text-[18px] md:text-[20px] leading-[20px] md:leading-[32px] font-bold
 }
 ._text_20-32{
-    @apply text-[20px] md:text-[26px] lg:text-[32px] leading-[24px] md:leading-[32px] lg:leading-[40px] font-bold
+    @apply text-[20px] xs:text-[24px] md:text-[28px] lg:text-[32px] leading-[24px] md:leading-[32px] lg:leading-[40px] font-bold
 }
 ._text_16-36{
-    @apply text-[16px] md:text-[24px] lg:text-[36px] leading-[24px] md:leading-[32px] lg:leading-[48px] font-bold
+    @apply text-[16px] xs:text-[20px] md:text-[24px] lg:text-[36px] leading-[24px] md:leading-[32px] lg:leading-[48px] font-bold
 }
 ._border{
     @apply border-[0.5px] border-[#5F9Ad7]

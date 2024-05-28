@@ -40,7 +40,7 @@ export default function Header(){
                     </div>
                 </div>
                 <Image className="hidden md:block absolute h-full w-auto object-contain right-0 bottom-0 xl:right-[20%] 2xl:right-1/4" src={forrest_trump} alt="FORREST TRUMP" />
-                <Image className="md:hidden absolute h-2/3 w-auto object-contain left-1/2 -translate-x-1/2 bottom-0" src={forrest_trump_mobile} alt="FORREST TRUMP" />
+                <Image className="md:hidden absolute h-1/2 xs:h-2/3 w-auto object-contain left-1/2 -translate-x-1/2 bottom-0" src={forrest_trump_mobile} alt="FORREST TRUMP" />
             </div>
         </section>
     )
