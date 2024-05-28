@@ -56,7 +56,7 @@ export default function Partners(){
                         </div>
                     </div>
                 </div>
-                <div className="md:order-first md:w-1/4 xl:w-1/3 ">
+                <div className="md:order-first xs:w-1/2 mx-auto md:w-1/4 xl:w-1/3 ">
                     <div className="bg-_bg_div  rounded-[24px] aspect-[250/265] _border flex flex-col justify-center">
                         <Image className="w-full object-contain" src={ shake_hand } alt="Partners Forre$t Trump" />
                     </div>
