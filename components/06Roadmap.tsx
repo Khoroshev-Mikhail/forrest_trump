@@ -21,7 +21,7 @@ export default function Roadmap(){
                 </div>
 
                 <div className="md:col-span-4 xl:col-span-2  w-full grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-[16px] grid-rows-max">
-                    <div className="bg-_bg_div _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -38,7 +38,7 @@ export default function Roadmap(){
                             <li>Community of 5000 holders</li>
                         </ul>
                     </div>
-                    <div className="bg-_bg_div _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -54,7 +54,7 @@ export default function Roadmap(){
                             <li>Community of 10000 holders</li>
                         </ul>
                     </div>
-                    <div className="bg-_bg_div _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -70,7 +70,7 @@ export default function Roadmap(){
                             <li>Exchange Listing CEX</li>
                         </ul>
                     </div>
-                    <div className="bg-_bg_div _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase

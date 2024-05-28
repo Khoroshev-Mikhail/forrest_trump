@@ -21,7 +21,7 @@ export default function Partners(){
                         Partnership, you know, is like what mama used to say: 'Life is like an unpredictable marathon.' You never know what you'll get, but there's always a chance to discover something amazing together!
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 text-center gap-[8px] md:gap-[12px]">
-                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-_bg_div _text_16-36">
+                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             <div className="w-full flex justify-center gap-x-[16px]">
                                 <div className="flex flex-col justify-center">
                                     <Image className="h-[24px] md:h-[40px]" src={ solana } alt="" />
@@ -29,7 +29,7 @@ export default function Partners(){
                                 SOLANA
                             </div>
                         </div>
-                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-_bg_div _text_16-36">
+                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             <div className="w-full flex justify-center gap-x-[16px]">
                                 <div className="flex flex-col justify-center">
                                     <Image className="h-[24px] md:h-[40px]" src={ radium } alt="" />
@@ -37,13 +37,13 @@ export default function Partners(){
                                 RADIUM
                             </div>
                         </div>
-                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-_bg_div _text_16-36">
+                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             COINMARKETCAP
                         </div>
-                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-_bg_div _text_16-36">
+                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             COINGECKO
                         </div>
-                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-_bg_div _text_16-36">
+                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             <div className="w-full flex justify-center gap-x-[16px]">
                                 <div className="flex flex-col justify-center">
                                     <Image className="h-[24px] md:h-[40px]" src={ pinksale } alt="" />
@@ -51,13 +51,13 @@ export default function Partners(){
                                 PINKSALE
                             </div>
                         </div>
-                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-_bg_div _text_16-36">
+                        <div className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             INTERFI
                         </div>
                     </div>
                 </div>
                 <div className="md:order-first xs:w-1/2 mx-auto md:w-1/4 xl:w-1/3 ">
-                    <div className="bg-_bg_div  rounded-[24px] aspect-[250/265] _border flex flex-col justify-center">
+                    <div className="bg-white bg-opacity-5  rounded-[24px] aspect-[250/265] _border flex flex-col justify-center">
                         <Image className="w-full object-contain" src={ shake_hand } alt="Partners Forre$t Trump" />
                     </div>
                 </div>

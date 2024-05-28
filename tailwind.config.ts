@@ -19,7 +19,7 @@ const config: Config = {
       colors: {
         '_green': '#00FFB2',
         '_blue': '#0E6AC5',
-        '_bg_div': '#2C67B0',
+        '_bg_div': '#2B5CA0',
       },
     },
   },
