@@ -1,14 +1,16 @@
 import Image from "next/image";
 import forrest_trump from "../public/img/04Tokenomics/forrest_trump.png"
+import shadow from "../public/img/shadow.png"
 
 export default function Tokenomics(){
     return (
         <section className="_section">
-            <div className="_wrapper flex flex-col md:flex-row gap-y-[16px] gap-x-[16px]">
-                <div className="w-full md:w-1/4 flex justify-center order-last md:order-first">
-                    <Image className="w-1/2 aspect-[253/370] mx-auto object-contain h-2/3 md:w-auto lg:w-full lg:h-full" src={forrest_trump} alt="FORRE$T TRUMP" />
+            <div className="_wrapper flex overflow-hidden flex-col md:flex-row gap-y-[16px] gap-x-[16px]">
+                <div className="relative w-full md:w-1/4 xl:w-1/3 flex justify-center order-last md:order-first h-2/3 xl:h-ful">
+                    <Image className="z-30 w-1/2 aspect-[253/370] mx-auto object-contain  md:w-auto lg:w-full l" src={forrest_trump} alt="FORRE$T TRUMP" />
+                    <Image className="absolute bottom-0 translate-y-1/2 left-0 w-full" src={shadow} alt="" />
                 </div>
-                <div className="w-full md:w-3/4 flex flex-col gap-y-[16px] md:gap-y-[24px]">
+                <div className="w-full md:w-3/4 xl:w-2/3 flex flex-col gap-y-[16px] md:gap-y-[24px]">
                     <div className="_h2_wrapper">
                         <h2 className="_h2">Tokenomics</h2>
                         <span className="_number">02</span>

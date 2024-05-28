@@ -5,6 +5,8 @@ import About from "@/components/03About";
 import Tokenomics from "@/components/04Tokenomics";
 import Partners from "@/components/05Partners";
 import Roadmap from "@/components/06Roadmap";
+import Joinus from "@/components/07Joinus";
+import Footer from "@/components/08Footer";
 
 export const INTER = Inter({ subsets: ["latin"] });
 export const MANROPE = Manrope({ subsets: ["latin"] });
@@ -18,6 +20,8 @@ export default function Home() {
             <Tokenomics />
             <Partners />
             <Roadmap />
+            <Joinus />
+            <Footer />
         </main>
   );
 }

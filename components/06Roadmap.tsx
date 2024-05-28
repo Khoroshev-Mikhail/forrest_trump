@@ -1,11 +1,12 @@
 import Image from "next/image";
 import forrest_trump from "../public/img/06Roadmap/forrest_trump.png"
+import shadow from "../public/img/shadow.png"
 
 export default function Roadmap(){
     return (
         <section className="_section">
-            <div className="_wrapper grid grid-cols-1 md:grid-cols-4 gap-[16px]">
-                <div className="md:col-span-3 flex flex-col gap-y-[16px] md:gap-y-[24px]">
+            <div className="_wrapper overflow-hidden grid grid-cols-1 md:grid-cols-4 xl:grid-cols-3 gap-[16px]">
+                <div className="md:col-span-3 xl:col-span-2 flex flex-col gap-y-[16px] md:gap-y-[24px]">
                     <div className="_h2_wrapper">
                         <h2 className="_h2">
                             Roadmap
@@ -19,8 +20,8 @@ export default function Roadmap(){
                     </div>
                 </div>
 
-                <div className="md:col-span-4 lg:col-span-4 w-full grid grid-cols-1 md:grid-cols-2 gap-[16px] auto-rows-min">
-                    <div className="rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                <div className="md:col-span-4 xl:col-span-2  w-full grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-[16px] grid-rows-max">
+                    <div className="bg-_bg_div _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -37,7 +38,7 @@ export default function Roadmap(){
                             <li>Community of 5000 holders</li>
                         </ul>
                     </div>
-                    <div className="rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div className="bg-_bg_div _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -53,7 +54,7 @@ export default function Roadmap(){
                             <li>Community of 10000 holders</li>
                         </ul>
                     </div>
-                    <div className="rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div className="bg-_bg_div _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -69,7 +70,7 @@ export default function Roadmap(){
                             <li>Exchange Listing CEX</li>
                         </ul>
                     </div>
-                    <div className="rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div className="bg-_bg_div _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -87,8 +88,11 @@ export default function Roadmap(){
                     </div>
                 </div>
 
-                <div className="md:order-first md:col-span-1">
-                    <Image className="w-1/2 md:w-full aspect-[459/612] mx-auto object-contain " src={ forrest_trump } alt="" />
+                <div className="md:order-first md:col-span-1 xl:row-start-1 xl:row-end-3 ">
+                    <div className="h-auto w-full relative">
+                        <Image className="relative z-30 w-1/2 md:w-full aspect-[459/612] mx-auto object-contain " src={ forrest_trump } alt="" />
+                        <Image className="absolute bottom-0 translate-y-1/2 md:translate-y-1/4 md:scale-1/2 xl:scale-1 xl:translate-y-1/2 left-0 w-full" src={shadow} alt="" />
+                    </div>
                 </div>
             </div>
         </section>

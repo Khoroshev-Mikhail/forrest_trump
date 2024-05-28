@@ -33,3 +33,9 @@ main{
 ._text_20-32{
     @apply text-[20px] md:text-[26px] lg:text-[32px] leading-[24px] md:leading-[32px] lg:leading-[40px] font-bold
 }
+._text_16-36{
+    @apply text-[16px] md:text-[24px] lg:text-[36px] leading-[24px] md:leading-[32px] lg:leading-[48px] font-bold
+}
+._border{
+    @apply border-[0.5px] border-[#5F9Ad7]
+}
