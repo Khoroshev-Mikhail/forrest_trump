@@ -16,6 +16,9 @@ export const TG_URL = ""
 export const X_URL = ""
 export const PRESALE_URL = ""
 export const AUDIT_URL = ""
+export const PUMP_FORREST_PUMP = ""
+export const UP_TO_700X_GROWTH = ""
+
 
 export default function Home() {
   return (

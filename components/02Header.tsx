@@ -4,7 +4,7 @@ import tg from '../public/img/tg.svg'
 import forrest_trump from '../public/img/02Header/forrest_trump.webp' 
 import forrest_trump_mobile from '../public/img/02Header/forrest_trump_mobile.webp' 
 import eclipse from '../public/img/eclipse.webp' 
-import { AUDIT_URL, MANROPE, PRESALE_URL, TG_URL, X_URL } from "@/pages";
+import { AUDIT_URL, MANROPE, PRESALE_URL, PUMP_FORREST_PUMP, TG_URL, UP_TO_700X_GROWTH, X_URL } from "@/pages";
 
 export default function Header(){
     return (
@@ -19,10 +19,10 @@ export default function Header(){
                     My mom always said, 'I'm not very smart, but I know how to go to the moon.' In the world of cryptocurrency, it's like picking from a box of chocolates: you wait for someone to take the biggest piece, and then you miss the chance to go to the moon!
                 </div>
                 <div className="z-30 flex justify-center md:justify-between md:order-1 _text_14-16">
-                    <a className="py-[8px] px-[16px] font-semibold text-_green tracking-wide border-[1px] border-_green rounded-[32px]" href="">
+                    <a href={ PUMP_FORREST_PUMP } className="py-[8px] px-[16px] font-semibold text-_green tracking-wide border-[1px] border-_green rounded-[32px]">
                         PUMP FORREST PUMP
                     </a>
-                    <a className="hidden md:inline-block py-[8px] px-[16px] font-semibold text-_green tracking-wide border-[1px] border-_green rounded-[32px] " href="">
+                    <a href={ UP_TO_700X_GROWTH } className="hidden md:inline-block py-[8px] px-[16px] font-semibold text-_green tracking-wide border-[1px] border-_green rounded-[32px]">
                         UP TO 700X GROWTH
                     </a>
                 </div>
