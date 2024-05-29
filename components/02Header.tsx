@@ -26,7 +26,7 @@ export default function Header(){
                         UP TO 700X GROWTH
                     </a>
                 </div>
-                <div className="z-40 order-last flex justify-between pt-[90%] md:pt-0">
+                <div className="z-30 order-last flex justify-between pt-[90%] md:pt-0">
                     <div className="w-full flex gap-x-[24px] justify-center md:justify-normal _text_14-16">
                         <a data-aos="fade-right" data-aos-duration="1500" href={ PRESALE_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
                             Presale
@@ -44,9 +44,9 @@ export default function Header(){
                         </a>
                     </div>
                 </div>
-                <Image className="z-30 hidden md:block absolute h-full w-auto object-contain right-0 bottom-0 xl:right-[16%] 2xl:right-[20%]" src={forrest_trump} alt="FORREST TRUMP" />
-                <Image className="z-30 md:hidden absolute h-1/2 w-auto object-contain left-1/2 -translate-x-1/2 bottom-0" src={forrest_trump_mobile} alt="FORREST TRUMP" />
-                <Image className="z-20 h-full w-auto absolute -bottom-1/3 md:bottom-0 right-0 md:translate-x-1/2 xl:translate-x-0 xl:right-[5%]  " src={eclipse} alt="" />
+                <Image className="z-20 hidden md:block absolute h-full w-auto object-contain right-0 bottom-0 xl:right-[16%] 2xl:right-[20%]" src={forrest_trump} alt="FORREST TRUMP" />
+                <Image className="z-20 md:hidden absolute h-1/2 w-auto object-contain left-1/2 -translate-x-1/2 bottom-0" src={forrest_trump_mobile} alt="FORREST TRUMP" />
+                <Image className="z-10 h-full w-auto absolute -bottom-1/3 md:bottom-0 right-0 md:translate-x-1/2 xl:translate-x-0 xl:right-[5%]  " src={eclipse} alt="" />
             </div>
         </section>
     )

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import forrest_trump from "../public/img/04Tokenomics/forrest_trump.webp"
 import shadow from "../public/img/shadow.webp"
+import copy from "../public/img/04Tokenomics/copy.svg"
 import { TOKEN } from "@/pages";
 
 export default function Tokenomics(){
@@ -24,8 +25,9 @@ export default function Tokenomics(){
                             <div className="_text_14-16 opacity-85 ">
                                 Token adress
                             </div>
-                            <div className="break-all _text_14-20 opacity-85 border-dashed border-b-[1px] border-[#92B7E0] hover:border-[#FFF] duration-500 transition cursor-pointer" onClick={()=>navigator.clipboard.writeText( TOKEN )}>
+                            <div className="flex gap-x-[10px] break-all _text_14-20 opacity-85 border-dashed border-b-[1px] border-[#92B7E0] hover:border-[#FFF] duration-500 transition cursor-pointer" onClick={()=>navigator.clipboard.writeText( TOKEN )}>
                                 { TOKEN }
+                                <Image className="w-[20px]" src={ copy } alt="(copy)" />
                             </div>
                         </div>
                         <div data-aos="fade-right" data-aos-duration="1500" className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
