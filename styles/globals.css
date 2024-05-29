@@ -57,5 +57,5 @@ main{
     backdrop-filter: blur(40px);
 }
 ._wrapper:hover{
-    border: 1px #00FFB2 solid;
+    border: 0.5px #00FFB2 solid;
 }
