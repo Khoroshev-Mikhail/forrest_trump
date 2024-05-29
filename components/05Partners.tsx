@@ -34,7 +34,7 @@ export default function Partners(){
                                 <div className="flex flex-col justify-center">
                                     <Image className="h-[24px] md:h-[40px]" src={ radium } alt="" />
                                 </div>
-                                RADIUM
+                                RAYDIUM
                             </div>
                         </div>
                         <div data-aos="fade-right" data-aos-duration="1500" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">

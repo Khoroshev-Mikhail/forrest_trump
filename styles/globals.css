@@ -56,3 +56,6 @@ main{
     -webkit-backdrop-filter: blur(40px);
     backdrop-filter: blur(40px);
 }
+._wrapper:hover{
+    border: 1px #00FFB2 solid;
+}
