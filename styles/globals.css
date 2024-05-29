@@ -48,3 +48,11 @@ main{
 ._border{
     @apply border-[0.5px] border-[#5F9Ad7]
 }
+._blur-\[12px\]{
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+}
+._blur-\[40px\]{
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+}
