@@ -12,15 +12,15 @@ export default function Tokenomics(){
                     <Image className="absolute bottom-0 translate-y-1/2 left-0 w-full" src={shadow} alt="" />
                 </div>
                 <div className="w-full md:w-3/4 xl:w-2/3 flex flex-col gap-y-[16px] md:gap-y-[24px]">
-                    <div className="_h2_wrapper">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="_h2_wrapper">
                         <h2 className="_h2">Tokenomics</h2>
                         <span className="_number">02</span>
                     </div>
-                    <div className="_text_14-16 opacity-85">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="_text_14-16 opacity-85">
                         Our tokenomics promotes sustainable and healthy project development by ensuring sufficient liquidity, marketing support, and enabling the team to achieve its goals according to the roadmap.
                     </div>
                     <div className="grid grid-cols-2 gap-y-[12px]">
-                        <div className="col-span-2 flex flex-col py-[12px] gap-y-[12px] border-b-[1px] border-[#92B7E0]">
+                        <div data-aos="fade-right" data-aos-duration="1500" className="col-span-2 flex flex-col py-[12px] gap-y-[12px] border-b-[1px] border-[#92B7E0]">
                             <div className="_text_14-16 opacity-85 ">
                                 Token adress
                             </div>
@@ -28,7 +28,7 @@ export default function Tokenomics(){
                                 { TOKEN }
                             </div>
                         </div>
-                        <div className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
+                        <div data-aos="fade-right" data-aos-duration="1500" className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
                             <div className="_text_14-20 opacity-85">
                                 1 000 000 000
                             </div>
@@ -36,7 +36,7 @@ export default function Tokenomics(){
                                 Total Supply
                             </div>
                         </div>
-                        <div className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
+                        <div data-aos="fade-right" data-aos-duration="1500" className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
                             <div className="_text_14-20 opacity-85">
                             10%
                             </div>
@@ -44,7 +44,7 @@ export default function Tokenomics(){
                             Team
                             </div>
                         </div>
-                        <div className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
+                        <div data-aos="fade-right" data-aos-duration="1500" className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
                             <div className="_text_14-20 opacity-85">
                             40%
                             </div>
@@ -52,7 +52,7 @@ export default function Tokenomics(){
                             Presale
                             </div>
                         </div>
-                        <div className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
+                        <div data-aos="fade-right" data-aos-duration="1500" className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
                             <div className="_text_14-20 opacity-85">
                             10%
                             </div>
@@ -60,7 +60,7 @@ export default function Tokenomics(){
                             Marketing
                             </div>
                         </div>
-                        <div className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
+                        <div data-aos="fade-right" data-aos-duration="1500" className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
                             <div className="_text_14-20 opacity-85">
                             20%
                             </div>
@@ -68,7 +68,7 @@ export default function Tokenomics(){
                             Liquidity
                             </div>
                         </div>
-                        <div className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
+                        <div data-aos="fade-right" data-aos-duration="1500" className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">
                             <div className="_text_14-20 opacity-85">
                             20%
                             </div>
