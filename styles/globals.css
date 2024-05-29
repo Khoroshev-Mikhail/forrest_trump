@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+    /* scroll-margin: 100px;
+    scroll-margin-block: 100px; */
+    scroll-padding: 80px;
+}
 body{
     min-width: 360px;
 }
+
 main{
     @apply  text-white bg-gradient-to-b from-[#1773DA] to-[#0A387C] min-h-screen
 }
@@ -34,7 +41,7 @@ main{
     @apply text-[20px] xs:text-[24px] md:text-[28px] lg:text-[32px] leading-[24px] md:leading-[32px] lg:leading-[40px] font-bold
 }
 ._text_16-36{
-    @apply text-[16px] xs:text-[20px] md:text-[24px] lg:text-[36px] leading-[24px] md:leading-[32px] lg:leading-[48px] font-bold
+    @apply text-[16px] xs:text-[20px] md:text-[24px] xl:text-[36px] leading-[24px] md:leading-[32px] xl:leading-[48px] font-bold
 }
 ._border{
     @apply border-[0.5px] border-[#5F9Ad7]

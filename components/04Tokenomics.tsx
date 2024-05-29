@@ -4,7 +4,7 @@ import shadow from "../public/img/shadow.png"
 
 export default function Tokenomics(){
     return (
-        <section className="_section">
+        <section id="Tokenomics" className="_section">
             <div className="_wrapper flex overflow-hidden flex-col md:flex-row gap-y-[16px] gap-x-[16px]">
                 <div className="relative w-full md:w-1/4 xl:w-1/3 flex justify-center order-last md:order-first h-2/3 xl:h-ful">
                     <Image className="z-30 w-1/2 aspect-[253/370] mx-auto object-contain  md:w-auto lg:w-full l" src={forrest_trump} alt="FORRE$T TRUMP" />

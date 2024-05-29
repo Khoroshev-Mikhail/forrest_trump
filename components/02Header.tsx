@@ -8,7 +8,7 @@ import { MANROPE } from "@/pages";
 
 export default function Header(){
     return (
-        <section className="_section">
+        <section id="Header" className="_section">
             <div className="_wrapper relative overflow-hidden flex flex-col gap-y-[8px] md:gap-y-[24px]">
                 <h1 className={`${MANROPE} z-30  font-extrabold text-[40px] md:text-[72px] lg:text-[96px] 2xl:text-[128px] leading-[48px] md:leading-[80px] lg:leading-[100px] 2xl:leading-[140px] md:order-2 text-center md:text-left`}>
                     FORREST

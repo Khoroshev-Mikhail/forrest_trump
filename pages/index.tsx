@@ -13,7 +13,7 @@ export const MANROPE = Manrope({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-        <main className={`${INTER.className}`}>
+        <main className={`${INTER.className} relative`}>
             <Menu />
             <Header />
             <About />

@@ -6,7 +6,7 @@ import pinksale from "../public/img/05Partners/pinksale.svg"
 
 export default function Partners(){
     return (
-        <section className="_section">
+        <section id="Partners" className="_section">
             <div className="_wrapper flex flex-col md:flex-row gap-x-[16px] gap-y-[16px] md:gap-y-[24px]">
                 <div className="md:w-3/4 xl:w-2/3 flex flex-col gap-y-[16px] md:gap-y-[24px]">
                     <div className="_h2_wrapper">

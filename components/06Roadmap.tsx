@@ -4,7 +4,7 @@ import shadow from "../public/img/shadow.png"
 
 export default function Roadmap(){
     return (
-        <section className="_section">
+        <section id="Roadmap" className="_section">
             <div className="_wrapper overflow-hidden grid grid-cols-1 md:grid-cols-4 xl:grid-cols-3 gap-[16px]">
                 <div className="md:col-span-3 xl:col-span-2 flex flex-col gap-y-[16px] md:gap-y-[24px]">
                     <div className="_h2_wrapper">
