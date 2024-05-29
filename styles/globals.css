@@ -7,9 +7,11 @@ html{
     /* scroll-margin: 100px;
     scroll-margin-block: 100px; */
     scroll-padding: 80px;
+    overscroll-behavior: none;
 }
 body{
     min-width: 360px;
+    overscroll-behavior: none;
 }
 
 main{

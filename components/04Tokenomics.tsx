@@ -23,8 +23,8 @@ export default function Tokenomics(){
                             <div className="_text_14-16 opacity-85 ">
                                 Token adress
                             </div>
-                            <div className="_text_14-20 opacity-85">
-                                HnF56T5Dj1KTU9j8hFvo2<wbr/>JNf9ArtLxAZ54YjxURnJykC
+                            <div className="_text_14-20 opacity-85 border-dashed border-b-[1px] border-[#92B7E0] hover:border-[#FFF] duration-500 transition cursor-pointer" onClick={()=>navigator.clipboard.writeText('HnF56T5Dj1KTU9j8hFvo2JNf9ArtLxAZ54YjxURnJykC')}>
+                                HnF56T5Dj1KTU9j8hFvo2JNf9ArtLxAZ<wbr/>54YjxURnJykC
                             </div>
                         </div>
                         <div className="col-span-1 flex flex-col py-[12px] gap-y-[12px]  border-b-[1px] border-[#92B7E0]">

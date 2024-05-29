@@ -40,9 +40,9 @@ export default function Header(){
                         <Image src={x} alt="" width={64} height={64}/>
                     </div>
                 </div>
-                <Image className="z-30 hidden md:block absolute h-full w-auto object-contain right-0 bottom-0 xl:right-[20%] 2xl:right-1/4" src={forrest_trump} alt="FORREST TRUMP" />
-                <Image className="z-20 h-full w-auto absolute -bottom-1/2 right-0 md:translate-x-1/2 xl:translate-x-0 xl:right-[5%] md:bottom-0 " src={eclipse} alt="" />
+                <Image className="z-30 hidden md:block absolute h-full w-auto object-contain right-0 bottom-0 xl:right-[16%] 2xl:right-[20%]" src={forrest_trump} alt="FORREST TRUMP" />
                 <Image className="z-30 md:hidden absolute h-1/2 w-auto object-contain left-1/2 -translate-x-1/2 bottom-0" src={forrest_trump_mobile} alt="FORREST TRUMP" />
+                <Image className="z-20 h-full w-auto absolute -bottom-1/2 right-0 md:translate-x-1/2 xl:translate-x-0 xl:right-[5%] md:bottom-0 " src={eclipse} alt="" />
             </div>
         </section>
     )
