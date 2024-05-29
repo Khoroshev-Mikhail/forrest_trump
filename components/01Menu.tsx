@@ -19,7 +19,7 @@ export default function Menu(){
 
             {/* Выдвижное меню */}
             <div className={`${isHidden ? 'hidden' : 'block'} absolute z-50 top-0 left-0 w-full rounded-b-2xl`}>
-                <div className="relative _wrapper py-10 sm:py-10 md:py-12 xl:py-20 flex flex-col justify-between !border-none  min-h-screen  _blur-[40px]">
+                <div className="relative _wrapper py-10 sm:py-10 md:py-12 xl:py-20 flex flex-col justify-between !border-none  min-h-lvh  _blur-[40px]">
                     <Image className="absolute top-[45px] right-[45px] cursor-pointer w-[30px] h-[30px] sm:w-[49px] sm:h-[49px]" src={ cross } alt="menu-toggle" onClick={()=> setIsHidden(true) }/>
                     
                     <menu className={`uppercase block md:w-1/2 w-full relative z-50 text-[16px] xs:text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] mt-10 text-white _text_16-36`}>
