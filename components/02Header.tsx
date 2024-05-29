@@ -26,7 +26,7 @@ export default function Header(){
                         UP TO 700X GROWTH
                     </a>
                 </div>
-                <div className="z-30 order-last flex justify-between pt-[90%] md:pt-0">
+                <div className="z-40 order-last flex justify-between pt-[90%] md:pt-0">
                     <div className="w-full flex gap-x-[24px] justify-center md:justify-normal _text_14-16">
                         <a data-aos="fade-right" data-aos-duration="1500" href={ PRESALE_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
                             Presale
