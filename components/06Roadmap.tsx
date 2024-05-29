@@ -1,6 +1,6 @@
 import Image from "next/image";
-import forrest_trump from "../public/img/06Roadmap/forrest_trump.png"
-import shadow from "../public/img/shadow.png"
+import forrest_trump from "../public/img/06Roadmap/forrest_trump.webp"
+import shadow from "../public/img/shadow.webp"
 
 export default function Roadmap(){
     return (

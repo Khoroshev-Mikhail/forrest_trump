@@ -1,9 +1,9 @@
 import Image from "next/image";
 import x from '../public/img/x.svg'
 import tg from '../public/img/tg.svg'
-import forrest_trump from '../public/img/02Header/forrest_trump.png' 
-import forrest_trump_mobile from '../public/img/02Header/forrest_trump_mobile.png' 
-import eclipse from '../public/img/eclipse.png' 
+import forrest_trump from '../public/img/02Header/forrest_trump.webp' 
+import forrest_trump_mobile from '../public/img/02Header/forrest_trump_mobile.webp' 
+import eclipse from '../public/img/eclipse.webp' 
 import { MANROPE } from "@/pages";
 
 export default function Header(){
@@ -42,7 +42,7 @@ export default function Header(){
                 </div>
                 <Image className="z-30 hidden md:block absolute h-full w-auto object-contain right-0 bottom-0 xl:right-[16%] 2xl:right-[20%]" src={forrest_trump} alt="FORREST TRUMP" />
                 <Image className="z-30 md:hidden absolute h-1/2 w-auto object-contain left-1/2 -translate-x-1/2 bottom-0" src={forrest_trump_mobile} alt="FORREST TRUMP" />
-                <Image className="z-20 h-full w-auto absolute -bottom-1/2 right-0 md:translate-x-1/2 xl:translate-x-0 xl:right-[5%] md:bottom-0 " src={eclipse} alt="" />
+                <Image className="z-20 h-full w-auto absolute -bottom-1/3 md:bottom-0 right-0 md:translate-x-1/2 xl:translate-x-0 xl:right-[5%]  " src={eclipse} alt="" />
             </div>
         </section>
     )

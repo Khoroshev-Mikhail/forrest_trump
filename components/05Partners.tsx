@@ -1,5 +1,5 @@
 import Image from "next/image";
-import shake_hand from "../public/img/05Partners/shake_hand.png"
+import shake_hand from "../public/img/05Partners/shake_hand.webp"
 import solana from "../public/img/05Partners/solana.svg"
 import radium from "../public/img/05Partners/radium.svg"
 import pinksale from "../public/img/05Partners/pinksale.svg"

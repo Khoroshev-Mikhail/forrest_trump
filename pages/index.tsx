@@ -11,6 +11,8 @@ import Footer from "@/components/08Footer";
 export const INTER = Inter({ subsets: ["latin"] });
 export const MANROPE = Manrope({ subsets: ["latin"] });
 
+export const TOKEN = 'HnF56T5Dj1KTU9j8hFvo2JNf9ArtLxAZ54YjxURnJykC'
+
 export default function Home() {
   return (
         <main className={`${INTER.className} relative`}>
