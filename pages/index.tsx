@@ -12,6 +12,10 @@ export const INTER = Inter({ subsets: ["latin"] });
 export const MANROPE = Manrope({ subsets: ["latin"] });
 
 export const TOKEN = 'HnF56T5Dj1KTU9j8hFvo2JNf9ArtLxAZ54YjxURnJykC'
+export const TG_URL = ""
+export const X_URL = ""
+export const PRESALE_URL = ""
+export const AUDIT_URL = ""
 
 export default function Home() {
   return (

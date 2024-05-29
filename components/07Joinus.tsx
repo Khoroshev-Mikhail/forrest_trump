@@ -2,6 +2,7 @@ import Image from "next/image";
 import x from '../public/img/07Joinus/x.svg'
 import tg from '../public/img/07Joinus/tg.svg'
 import feather from '../public/img/07Joinus/feather.webp'
+import { TG_URL, X_URL } from "@/pages";
 
 export default function Joinus(){
     return (
@@ -17,13 +18,13 @@ export default function Joinus(){
                     Join our lively community and embark on an exciting journey with us. Communicate, create interesting memes - together we will revolutionize this industry!
                 </div>
                 <div className="z-30 flex justify-center gap-x-[12px] md:gap-x-[24px]">
-                    <a className="w-[142px] md:w-[218px] py-[16px] rounded-[53px] flex justify-center gap-x-[10px] bg-_green text-_blue _text_14-20 !font-semibold">
+                    <a href={ TG_URL } className="w-[142px] md:w-[218px] py-[16px] rounded-[53px] flex justify-center gap-x-[10px] bg-_green text-_blue _text_14-20 !font-semibold">
                         <Image src={tg} alt=""/>
                         <div>
                             Telegram
                         </div>
                     </a>
-                    <a className="w-[142px] md:w-[218px] py-[16px] rounded-[53px] flex justify-center gap-x-[10px] bg-_green text-_blue _text_14-20 !font-semibold">
+                    <a href={ X_URL } className="w-[142px] md:w-[218px] py-[16px] rounded-[53px] flex justify-center gap-x-[10px] bg-_green text-_blue _text_14-20 !font-semibold">
                         <Image src={x} alt=""/>
                         <div>
                             Twitter

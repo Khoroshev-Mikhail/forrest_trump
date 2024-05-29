@@ -4,7 +4,7 @@ import tg from '../public/img/tg.svg'
 import forrest_trump from '../public/img/02Header/forrest_trump.webp' 
 import forrest_trump_mobile from '../public/img/02Header/forrest_trump_mobile.webp' 
 import eclipse from '../public/img/eclipse.webp' 
-import { MANROPE } from "@/pages";
+import { AUDIT_URL, MANROPE, PRESALE_URL, TG_URL, X_URL } from "@/pages";
 
 export default function Header(){
     return (
@@ -28,16 +28,20 @@ export default function Header(){
                 </div>
                 <div className="z-30 order-last flex justify-between pt-[90%] md:pt-0">
                     <div className="w-full flex gap-x-[24px] justify-center md:justify-normal _text_14-16">
-                        <a className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px]" href="#">
+                        <a href={ PRESALE_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
                             Presale
                         </a>
-                        <a className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px]" href="#">
+                        <a href={ AUDIT_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
                             Audit
                         </a>
                     </div>
                     <div className="z-30 hidden md:flex gap-x-[24px]">
-                        <Image src={tg} alt="" width={64} height={64}/>
-                        <Image src={x} alt="" width={64} height={64}/>
+                        <a href={TG_URL}>
+                            <Image src={tg} alt="" width={64} height={64}/>
+                        </a>
+                        <a href={X_URL}>
+                            <Image src={x} alt="" width={64} height={64}/>
+                        </a>
                     </div>
                 </div>
                 <Image className="z-30 hidden md:block absolute h-full w-auto object-contain right-0 bottom-0 xl:right-[16%] 2xl:right-[20%]" src={forrest_trump} alt="FORREST TRUMP" />
