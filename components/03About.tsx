@@ -16,17 +16,17 @@ export default function About(){
                 </div>
                 <div className="z-30 w-full md:w-3/4 xl:w-2/3 flex flex-col gap-y-[8px] md:gap-y-[24px]">
                     <div className="_h2_wrapper">
-                        <h2 data-aos="fade-right" data-aos-duration="1500" className="_h2">
+                        <h2 data-aos="fade-right" data-aos-duration="800" className="_h2">
                             About
                         </h2>
                         <span className="_number">
                             01
                         </span>
                     </div>
-                    <div data-aos="fade-right" data-aos-duration="1500" className="space-y-6  _text_14-16 opacity-85">
+                    <div data-aos="fade-right" data-aos-duration="800" className="space-y-6  _text_14-16 opacity-85">
                         FORREST TRUMP is a token inspired by two legendary characters: Forrest Gump and Donald Trump, created for a journey through the cryptocurrency space.
                     </div>
-                    <div data-aos="fade-right" data-aos-duration="1500" className="space-y-6  _text_14-16 opacity-85">
+                    <div data-aos="fade-right" data-aos-duration="800" className="space-y-6  _text_14-16 opacity-85">
                         Imagine what happens when you combine the incredible stories of Forrest, his amazing adventures, with the unpredictability and success of Donald Trump. Fasten your seat belt - we're going to the moon!
                     </div>
                 </div>

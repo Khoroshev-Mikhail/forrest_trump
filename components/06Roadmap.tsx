@@ -7,7 +7,7 @@ export default function Roadmap(){
         <section id="Roadmap" className="_section">
             <div className="_wrapper overflow-hidden grid grid-cols-1 md:grid-cols-4 xl:grid-cols-3 gap-[16px]">
                 <div className="md:col-span-3 xl:col-span-2 flex flex-col gap-y-[16px] md:gap-y-[24px]">
-                    <div data-aos="fade-right" data-aos-duration="1500" className="_h2_wrapper">
+                    <div data-aos="fade-right" data-aos-duration="800" className="_h2_wrapper">
                         <h2 className="_h2">
                             Roadmap
                         </h2>
@@ -15,13 +15,13 @@ export default function Roadmap(){
                             04
                         </span>
                     </div>
-                    <div data-aos="fade-right" data-aos-duration="1500" className="_text_14-16 opacity-85">
+                    <div data-aos="fade-right" data-aos-duration="800" className="_text_14-16 opacity-85">
                         A roadmap is like a plan for a journey through life, full of unexpected twists and exciting adventures. We don't know what's going to happen next, but as they told me, 'Run, Forrest, run!' and I keep moving forward no matter what.
                     </div>
                 </div>
 
                 <div className="md:col-span-4 xl:col-span-2  w-full grid grid-cols-1 md:grid-cols-2 grid-rows-4 md:grid-rows-2 gap-[16px] grid-rows-max">
-                    <div data-aos="fade-right" data-aos-duration="1500" className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div data-aos="fade-right" data-aos-duration="800" className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -38,7 +38,7 @@ export default function Roadmap(){
                             <li>Community of 5000 holders</li>
                         </ul>
                     </div>
-                    <div data-aos="fade-right" data-aos-duration="1500" className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div data-aos="fade-right" data-aos-duration="800" className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -54,7 +54,7 @@ export default function Roadmap(){
                             <li>Community of 10000 holders</li>
                         </ul>
                     </div>
-                    <div data-aos="fade-right" data-aos-duration="1500" className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div data-aos="fade-right" data-aos-duration="800" className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase
@@ -70,7 +70,7 @@ export default function Roadmap(){
                             <li>Exchange Listing CEX</li>
                         </ul>
                     </div>
-                    <div data-aos="fade-right" data-aos-duration="1500" className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
+                    <div data-aos="fade-right" data-aos-duration="800" className="bg-white bg-opacity-5 _border rounded-[8px] md:rounded-[24px] flex flex-col gap-y-[16px] p-[16px]">
                         <div className="flex justify-between _text_20-32">
                             <div className="uppercase">
                                 Phase

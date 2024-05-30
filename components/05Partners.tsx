@@ -9,7 +9,7 @@ export default function Partners(){
         <section id="Partners" className="_section">
             <div className="_wrapper flex flex-col md:flex-row gap-x-[16px] gap-y-[16px] md:gap-y-[24px]">
                 <div className="md:w-3/4 xl:w-2/3 flex flex-col gap-y-[16px] md:gap-y-[24px]">
-                    <div data-aos="fade-right" data-aos-duration="1500" className="_h2_wrapper">
+                    <div data-aos="fade-right" data-aos-duration="800" className="_h2_wrapper">
                         <h2 className="_h2">
                             Partners
                         </h2>
@@ -17,11 +17,11 @@ export default function Partners(){
                             03
                         </span>
                     </div>
-                    <div data-aos="fade-right" data-aos-duration="1500" className="_text_14-16 opacity-85">
+                    <div data-aos="fade-right" data-aos-duration="800" className="_text_14-16 opacity-85">
                         Partnership, you know, is like what mama used to say: 'Life is like an unpredictable marathon.' You never know what you'll get, but there's always a chance to discover something amazing together!
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 text-center gap-[8px] md:gap-[12px]">
-                        <div data-aos="fade-right" data-aos-duration="1500" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
+                        <div data-aos="fade-right" data-aos-duration="800" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             <div className="w-full flex justify-center gap-x-[16px]">
                                 <div className="flex flex-col justify-center">
                                     <Image className="h-[24px] md:h-[40px]" src={ solana } alt="" />
@@ -29,7 +29,7 @@ export default function Partners(){
                                 SOLANA
                             </div>
                         </div>
-                        <div data-aos="fade-right" data-aos-duration="1500" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
+                        <div data-aos="fade-right" data-aos-duration="800" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             <div className="w-full flex justify-center gap-x-[16px]">
                                 <div className="flex flex-col justify-center">
                                     <Image className="h-[24px] md:h-[40px]" src={ radium } alt="" />
@@ -37,13 +37,13 @@ export default function Partners(){
                                 RAYDIUM
                             </div>
                         </div>
-                        <div data-aos="fade-right" data-aos-duration="1500" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
+                        <div data-aos="fade-right" data-aos-duration="800" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             COINMARKETCAP
                         </div>
-                        <div data-aos="fade-right" data-aos-duration="1500" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
+                        <div data-aos="fade-right" data-aos-duration="800" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             COINGECKO
                         </div>
-                        <div data-aos="fade-right" data-aos-duration="1500" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
+                        <div data-aos="fade-right" data-aos-duration="800" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             <div className="w-full flex justify-center gap-x-[16px]">
                                 <div className="flex flex-col justify-center">
                                     <Image className="h-[24px] md:h-[40px]" src={ pinksale } alt="" />
@@ -51,7 +51,7 @@ export default function Partners(){
                                 PINKSALE
                             </div>
                         </div>
-                        <div data-aos="fade-right" data-aos-duration="1500" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
+                        <div data-aos="fade-right" data-aos-duration="800" className="h-[48px] md:h-[72px] flex flex-col justify-center rounded-[8px] md:rounded-[24px] _border bg-white bg-opacity-5 _text_16-36">
                             INTERFI
                         </div>
                     </div>

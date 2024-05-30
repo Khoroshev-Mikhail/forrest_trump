@@ -10,36 +10,36 @@ export default function Header(){
     return (
         <section id="Header" className="_section">
             <div className="_wrapper relative overflow-hidden flex flex-col gap-y-[8px] md:gap-y-[24px]">
-                <h1 data-aos="fade-right" data-aos-duration="1500" className={`${MANROPE} z-30  font-extrabold text-[40px] md:text-[72px] lg:text-[96px] 2xl:text-[128px] leading-[48px] md:leading-[80px] lg:leading-[100px] 2xl:leading-[140px] md:order-2 text-center md:text-left`}>
+                <h1 data-aos="fade-right" data-aos-duration="800" className={`${MANROPE} z-30  font-extrabold text-[40px] md:text-[72px] lg:text-[96px] 2xl:text-[128px] leading-[48px] md:leading-[80px] lg:leading-[100px] 2xl:leading-[140px] md:order-2 text-center md:text-left`}>
                     FORREST
                     <br />
                     TRUMP
                 </h1>
-                <div data-aos="fade-right" data-aos-duration="1500" className="z-30 md:w-1/2 lg:w-[40%] opacity-85 _text_14-16 text-center md:text-left md:order-3">
+                <div data-aos="fade-right" data-aos-duration="800" className="z-30 md:w-1/2 lg:w-[40%] opacity-85 _text_14-16 text-center md:text-left md:order-3">
                     My mom always said, 'I'm not very smart, but I know how to go to the moon.' In the world of cryptocurrency, it's like picking from a box of chocolates: you wait for someone to take the biggest piece, and then you miss the chance to go to the moon!
                 </div>
                 <div className="z-30 flex justify-center md:justify-between md:order-1 _text_14-16">
-                    <a data-aos="fade-right" data-aos-duration="1500" href={ PUMP_FORREST_PUMP } className="py-[8px] px-[16px] font-semibold text-_green tracking-wide border-[1px] border-_green rounded-[32px]">
+                    <a data-aos="fade-right" data-aos-duration="800" href={ PUMP_FORREST_PUMP } className="py-[8px] px-[16px] font-semibold text-_green tracking-wide border-[1px] border-_green rounded-[32px]">
                         PUMP FORREST PUMP
                     </a>
-                    <a data-aos="fade-right" data-aos-duration="1500" href={ UP_TO_700X_GROWTH } className="hidden md:inline-block py-[8px] px-[16px] font-semibold text-_green tracking-wide border-[1px] border-_green rounded-[32px]">
+                    <a data-aos="fade-right" data-aos-duration="800" href={ UP_TO_700X_GROWTH } className="hidden md:inline-block py-[8px] px-[16px] font-semibold text-_green tracking-wide border-[1px] border-_green rounded-[32px]">
                         UP TO 700X GROWTH
                     </a>
                 </div>
                 <div className="z-30 order-last flex justify-between pt-[90%] md:pt-0">
                     <div className="w-full flex gap-x-[24px] justify-center md:justify-normal _text_14-16">
-                        <a data-aos="fade-right" data-aos-duration="1500" href={ PRESALE_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
+                        <a data-aos="fade-right" data-aos-duration="800" href={ PRESALE_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
                             Presale
                         </a>
-                        <a data-aos="fade-right" data-aos-duration="1500" href={ AUDIT_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
+                        <a data-aos="fade-right" data-aos-duration="800" href={ AUDIT_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
                             Audit
                         </a>
                     </div>
                     <div className="z-30 hidden md:flex gap-x-[24px]">
-                        <a data-aos="fade-right" data-aos-duration="1500" href={TG_URL}>
+                        <a data-aos="fade-right" data-aos-duration="800" href={TG_URL}>
                             <Image src={tg} alt="" width={64} height={64}/>
                         </a>
-                        <a data-aos="fade-right" data-aos-duration="1500" href={X_URL}>
+                        <a data-aos="fade-right" data-aos-duration="800" href={X_URL}>
                             <Image src={x} alt="" width={64} height={64}/>
                         </a>
                     </div>
