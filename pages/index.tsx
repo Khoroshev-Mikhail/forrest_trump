@@ -11,9 +11,9 @@ import Footer from "@/components/08Footer";
 export const INTER = Inter({ subsets: ["latin"] });
 export const MANROPE = Manrope({ subsets: ["latin"] });
 
-export const TOKEN = 'HnF56T5Dj1KTU9j8hFvo2JNf9ArtLxAZ54YjxURnJykC'
-export const TG_URL = ""
-export const X_URL = ""
+export const TOKEN = 'FWEpX66gHktS5ysUQEGAVG1XDdAN8stH3MHFm8ycUTun'
+export const TG_URL = "https://t.me/forrest_trump_sol"
+export const X_URL = "https://x.com/forrestrumpsol"
 export const PRESALE_URL = ""
 export const AUDIT_URL = ""
 export const PUMP_FORREST_PUMP = ""
