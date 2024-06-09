@@ -14,8 +14,8 @@ export const MANROPE = Manrope({ subsets: ["latin"] });
 export const TOKEN = 'FWEpX66gHktS5ysUQEGAVG1XDdAN8stH3MHFm8ycUTun'
 export const TG_URL = "https://t.me/forrest_trump_sol"
 export const X_URL = "https://x.com/forrestrumpsol"
-export const PRESALE_URL = ""
-export const AUDIT_URL = ""
+export const PRESALE_URL = "https://www.pinksale.finance/solana/launchpad/4z7FpdqHCZE2P6Rqd5Q39CuRLdq8o87EHhDW2F1y2j4C"
+export const AUDIT_URL = "https://github.com/interfinetwork/project-delivery-data/blob/main/ForrestTrump/ForrestTrump_AuditReport_InterFi.pdf"
 export const PUMP_FORREST_PUMP = ""
 export const UP_TO_700X_GROWTH = ""
 
