@@ -29,7 +29,7 @@ export default function Header(){
                 <div className="z-30 order-last flex justify-between pt-[90%] md:pt-0">
                     <div className="w-full flex gap-x-[24px] justify-center md:justify-normal _text_14-16">
                         <a data-aos="fade-right" data-aos-duration="800" href={ PRESALE_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
-                            Presale
+                            Buy
                         </a>
                         <a data-aos="fade-right" data-aos-duration="800" href={ AUDIT_URL } className="w-[142px] h-[36px] md:w-[218px] md:h-[64px] flex flex-col justify-center bg-_green text-center text-_blue rounded-[53px] ">
                             Audit
